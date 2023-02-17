@@ -26,7 +26,7 @@ OR
 
 3.1) scan
 
-3.2) <enter path to your image with qr code>
+3.2) \<enter path to your image with qr code\>
 
 4) 6 digit code will be printed to the terminal
 5) SWAG
