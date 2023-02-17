@@ -7,26 +7,33 @@
 
 ## Usage
 
-1) pip install opencv-python qrcode climage pyotp
-2) python3 main.py --generate-qr example@gmail.com
+1) ```
+pip install opencv-python qrcode climage pyotp
+```
+
+2) ```
+python3 main.py --generate-qr example@gmail.com
+```
 
 ![Semantic description of image](/imgs/generated_qr_code.png "Generated QR Code")
 <br>
 
-3) python3 main.py --get-otp 
+3) ```
+python3 main.py --get-otp 
+```
 
-3.1) type 
+```type```
 
-3.2) <enter your secret qr code>
+```<enter your secret qr code>```
 
 ![Semantic description of image](/imgs/get_otp.png "6 digit code")
 <br>
 
 OR
 
-3.1) scan
+```scan```
 
-3.2) \<enter path to your image with qr code\>
+```<enter path to your image with qr code>```
 
 4) 6 digit code will be printed to the terminal
 5) SWAG
